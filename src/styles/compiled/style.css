@@ -9,12 +9,34 @@ body {
   background-color: grey;
   padding: 20px;
 }
-body .game-container {
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
   background-color: white;
-  border-radius: 3px solid black;
+  border-radius: 10px;
   max-width: 800px;
   padding: 10px;
   width: 100%;
+}
+.game-container h1 {
+  margin-bottom: 20px;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 10px;
+  background-color: blue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.game-turn {
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
