@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: grey;
+  padding: 20px;
+}
+body .game-container {
+  background-color: white;
+  border-radius: 3px solid black;
+  max-width: 800px;
+  padding: 10px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
